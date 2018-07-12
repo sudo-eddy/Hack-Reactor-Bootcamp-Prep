@@ -1,8 +1,8 @@
 
 
-# Hack Reactor bootcamp prep 
+# Hack Reactor bootcamp prep
 
-## This repository inludes my progress from the Hack Reactor bootcamp prep excersies.
+## This repository includes my progress from the Hack Reactor bootcamp prep excercises.
 
 
 **I do not own any of this content**
