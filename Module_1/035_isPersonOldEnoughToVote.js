@@ -1,16 +1,15 @@
 /*
-Write a function called "removeFromBack".
-
-Given an array, "removeFromBack" returns the given array with its last element removed.
-
+Write a function called "isPersonOldEnoughToVote".
+Given a "person" object, that contains an "age" property, "isPersonOldEnoughToVote" returns whether the given person is old enough to vote.
 Notes:
-* You should be familiar with the method 'pop'.
-
-var output = removeFromBack([1, 2, 3]);
-console.log(output); // --> [1, 2]
+* The legal voting age in the United States is 18.
+var obj = {
+  age: 19
+};
+var output = isPersonOldEnoughToVote(obj);
+console.log(output); // --> true
 */
 
-function removeFromBack(arr) {
-  arr.pop();
-  return arr;
+function isPersonOldEnoughToVote(person) {
+  return (person.age >= 18 ? true : false);
 }
